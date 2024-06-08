@@ -1,0 +1,23 @@
+{
+  "results": {
+    "arc_ar": {
+      "acc": 0.23781009409751924,
+      "acc_stderr": 0.012457339987221741,
+      "acc_norm": 0.2600513259195894,
+      "acc_norm_stderr": 0.012835385385156417
+    }
+  },
+  "versions": {
+    "arc_ar": 0
+  },
+  "config": {
+    "model": "hf-auto",
+    "model_args": "pretrained=Qwen/Qwen2-1.5B,trust_remote_code=True,use_accelerate=True",
+    "batch_size": 1,
+    "device": "cuda",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
